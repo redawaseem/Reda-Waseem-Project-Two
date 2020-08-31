@@ -1,0 +1,1596 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+header.homePage {
+  background-image: url(../Planted/planted-final-assets/home-image-1.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header.homePage .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+header.homePage .wrapper nav.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.homePage .wrapper nav.topBar .logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFF;
+}
+
+header.homePage .wrapper nav.topBar ul.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.homePage .wrapper nav.topBar ul.navBar li {
+  padding: 0 25px;
+}
+
+header.homePage .wrapper nav.topBar ul.navBar li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+header.homePage .wrapper nav.topBar ul.navBar li a:hover {
+  color: #F8E71C;
+}
+
+header.homePage .wrapper .headerTitle {
+  text-align: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 120px;
+  z-index: 1;
+}
+
+header.homePage .wrapper .headerTitle .title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  color: #FFF;
+}
+
+header.homePage .wrapper .headerTitle .yellow {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  color: #F8E71C;
+  padding-left: 110px;
+}
+
+header.homePage .boxImage {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  width: 43%;
+}
+
+i.fa-bars {
+  visibility: hidden;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -60px;
+  font-size: 15px;
+}
+
+section.first {
+  background-color: #F0EFED;
+}
+
+section.first .planted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.first .planted h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 56.3px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #2C2C2C;
+  padding-top: 200px;
+  margin: 0px;
+}
+
+section.first .planted p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin: 0px;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+section.first .planted a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #0E902D;
+  margin-bottom: 200px;
+  padding: 5px 20px;
+}
+
+section.first .planted a:hover {
+  background-color: #F8E71C;
+}
+
+section.flowers {
+  position: relative;
+  height: 110vh;
+  background-color: #fff;
+}
+
+section.flowers .leftFlowers {
+  position: absolute;
+  left: 0;
+  width: 42%;
+  top: -20px;
+}
+
+section.flowers .leftFlowers .yellowBoxOne {
+  -webkit-box-shadow: #F8E71C 15px 15px;
+          box-shadow: #F8E71C 15px 15px;
+}
+
+section.flowers .upcoming {
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+section.flowers .upcoming .upcomingWorkshops {
+  width: 70%;
+}
+
+section.flowers .upcoming .upcomingWorkshops h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #2C2C2C;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+section.flowers .upcoming .upcomingWorkshops p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+section.flowers .upcoming .upcomingWorkshops .buttonTwo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #0E902D;
+  padding: 12px 30px;
+}
+
+section.flowers .upcoming .upcomingWorkshops .buttonTwo:hover {
+  background-color: #F8E71C;
+}
+
+section.flowers .rightFlowers {
+  position: absolute;
+  right: 0;
+  top: 400px;
+  width: 42%;
+}
+
+section.flowers .rightFlowers .yellowBoxTwo {
+  -webkit-box-shadow: #F8E71C -15px 15px;
+          box-shadow: #F8E71C -15px 15px;
+}
+
+section.flowers .discover {
+  position: absolute;
+  left: 70px;
+  width: 60%;
+  top: 120px;
+}
+
+section.flowers .discover .unique {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  top: 300px;
+  margin: 0;
+}
+
+section.flowers .discover .unique h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #2C2C2C;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+section.flowers .discover .unique p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+}
+
+section.flowers .discover .unique .buttonThree {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #0E902D;
+  padding: 5px 30px;
+}
+
+section.flowers .discover .unique .buttonThree:hover {
+  background-color: #F8E71C;
+}
+
+section.group {
+  background: #F0EFED;
+  padding: 100px 0px;
+}
+
+section.group .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.group .flexContainer .iconText {
+  width: 45%;
+}
+
+section.group .flexContainer .iconText h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #2C2C2C;
+  margin: 0px 0px 10px 0px;
+}
+
+section.group .flexContainer .iconText h3 .fas {
+  background-color: #F8E71C;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+section.group .flexContainer .iconText p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 55px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0;
+  margin-bottom: calc 60px;
+}
+
+section.vases {
+  background-color: #F0EFED;
+}
+
+section.founder {
+  background-color: #F0EFED;
+  padding: 100px 0px;
+}
+
+section.founder .flexContainerTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.founder .flexContainerTwo .plantedImage {
+  width: 20%;
+}
+
+section.founder .flexContainerTwo .plantedImage .lady {
+  -webkit-box-shadow: #F8E71C 15px 15px;
+          box-shadow: #F8E71C 15px 15px;
+}
+
+section.founder .flexContainerTwo .planted {
+  width: 60%;
+}
+
+section.founder .flexContainerTwo .planted h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #2C2C2C;
+  font-size: 32px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+section.founder .flexContainerTwo .planted p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+section.founder .flexContainerTwo .planted .buttonFour {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #0E902D;
+  padding: 12px 20px;
+}
+
+section.founder .flexContainerTwo .planted .buttonFour:hover {
+  background-color: #F8E71C;
+}
+
+section.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+section.gallery ul li {
+  padding: 80px 20px;
+}
+
+section.gallery ul:nth-of-type(1) {
+  padding-left: 0;
+}
+
+footer {
+  background-color: #2C2C2C;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+footer a {
+  color: #F8E71C;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .topBar {
+    margin-left: 50px;
+  }
+  div.planted {
+    margin: 0px 50px;
+  }
+  section.flowers {
+    height: 660px;
+  }
+}
+
+@media (max-width: 940px) {
+  i.fa-bars {
+    visibility: visible;
+    margin-right: 50px;
+    font-size: 25px;
+  }
+  ul.navBar {
+    visibility: hidden;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+  .boxImage {
+    visibility: hidden;
+  }
+  h3 {
+    margin-top: 0px;
+  }
+  section.flowers {
+    height: 700px;
+  }
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+header.contactPage {
+  background-image: url(../Planted/planted-final-assets/contact-header-1.jpg);
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header.contactPage .black {
+  background-color: #000;
+  margin: 0px;
+}
+
+header.contactPage .black .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header.contactPage .black .wrapper nav.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.contactPage .black .wrapper nav.topBar .logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFF;
+}
+
+header.contactPage .black .wrapper nav.topBar ul.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.contactPage .black .wrapper nav.topBar ul.navBar li {
+  padding: 0 25px;
+}
+
+header.contactPage .black .wrapper nav.topBar ul.navBar li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+header.contactPage .black .wrapper nav.topBar ul.navBar li a:hover {
+  color: #F8E71C;
+}
+
+.headerTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 70vh;
+}
+
+.headerTitle h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 92px;
+  color: #F8E71C;
+  margin-top: 100px;
+  width: 30%;
+}
+
+i.fa-bars {
+  visibility: hidden;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -60px;
+  font-size: 15px;
+}
+
+section.contactInfo {
+  background-color: #F0EFED;
+  padding-bottom: 130px;
+}
+
+section.contactInfo .icons ul {
+  padding: 100px 0px 0px 0px;
+  margin: 0px;
+}
+
+section.contactInfo .icons ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 25px;
+  color: #0E902D;
+}
+
+.information h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.information p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 10px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+section.form {
+  position: relative;
+}
+
+section.form .box {
+  width: 60%;
+  height: 500px;
+  position: absolute;
+  top: -645px;
+  left: 425px;
+  background: #fff;
+  -webkit-box-shadow: #F8E71C -15px 15px;
+          box-shadow: #F8E71C -15px 15px;
+}
+
+section.form .box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.form .box form fieldset {
+  border: none;
+  text-align: center;
+}
+
+section.form .box form fieldset label {
+  display: none;
+}
+
+section.form .box form fieldset input {
+  border: none;
+  padding: 15px;
+  width: 43%;
+  border-bottom: 1px solid #0E902D;
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+}
+
+section.form .box form fieldset input [placeholder="Name"] {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+}
+
+section.form .box form fieldset input [type="email"] {
+  margin-left: 18px;
+}
+
+section.form .box form textarea {
+  resize: none;
+  border: 1px solid #0E902D;
+  height: 250px;
+  padding: 20px;
+  margin: 30px 50px 40px 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+}
+
+section.form .box form button[type="submit"] {
+  background-color: #0E902D;
+  padding: 10px 30px;
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  width: calc(100% - 100px);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #0E902D;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  section.form .box {
+    left: 410px;
+  }
+  .headerTitle h2 {
+    margin-left: 20px;
+  }
+  section.contactInfo .icons {
+    margin-left: 20px;
+  }
+  section.contactInfo .information {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  section.form .box {
+    left: 307px;
+  }
+  i.fa-bars {
+    visibility: visible;
+    margin-right: 50px;
+    font-size: 25px;
+  }
+  ul.navBar {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 460px) {
+  section.form .box {
+    left: 20px;
+    width: 90%;
+    position: absolute;
+  }
+  section.form {
+    top: -240px;
+  }
+  .contactInfo {
+    padding-top: 400px;
+  }
+  i.fa-bars {
+    visibility: visible;
+    margin-right: 50px;
+    font-size: 25px;
+  }
+  .navBar li {
+    display: none;
+  }
+  .information p {
+    margin-bottom: 10px;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+}
+
+header.blogPage {
+  background-image: url(../Planted/planted-final-assets/blog-header-1.jpg);
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header.blogPage .black {
+  background-color: #000;
+  margin: 0px;
+}
+
+header.blogPage .black .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header.blogPage .black .wrapper nav.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.blogPage .black .wrapper nav.topBar .logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFF;
+}
+
+header.blogPage .black .wrapper nav.topBar ul.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.blogPage .black .wrapper nav.topBar ul.navBar li {
+  padding: 0 25px;
+}
+
+header.blogPage .black .wrapper nav.topBar ul.navBar li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+header.blogPage .black .wrapper nav.topBar ul.navBar li a:hover {
+  color: #F8E71C;
+}
+
+.headerBlogTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 60vh;
+}
+
+.headerBlogTitle h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 92px;
+  color: #F8E71C;
+  margin-top: 0px;
+  width: 30%;
+}
+
+i.fa-bars {
+  visibility: hidden;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -60px;
+  font-size: 15px;
+}
+
+aside.sideBar .window {
+  position: absolute;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+aside.sideBar .window img {
+  width: 80%;
+}
+
+aside.sideBar .aboutPlanted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 320px;
+  height: 104%;
+  position: absolute;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 100px;
+  background-color: #fff;
+  padding-top: 0px;
+  margin-top: 100px;
+  padding: 0px 20px;
+}
+
+aside.sideBar .aboutPlanted h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #2C2C2C;
+  margin: 35px 0px 0px 0px;
+}
+
+aside.sideBar .aboutPlanted p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px;
+  width: 95%;
+}
+
+aside.sideBar .aboutPlanted ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px;
+  width: 95%;
+  padding: 10px;
+}
+
+aside.sideBar .aboutPlanted ul li {
+  padding-left: 10px;
+  color: #0E902D;
+}
+
+aside.sideBar .aboutPlanted ul li span {
+  color: #2C2C2C;
+}
+
+section.mainBlog {
+  background-color: #F0EFED;
+}
+
+section.mainBlog .boxShadow .plantImage {
+  position: relative;
+}
+
+section.mainBlog .boxShadow .plantImage .greenPlant {
+  position: absolute;
+  top: -250px;
+  width: 60%;
+  right: 0;
+}
+
+section.mainBlog .boxShadow .plantImage .greenPlant img {
+  -webkit-box-shadow: #F8E71C -15px 15px;
+          box-shadow: #F8E71C -15px 15px;
+}
+
+section.mainBlog .boxShadow .blogInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 126px;
+}
+
+section.mainBlog .boxShadow .blogInfo .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 56.95%;
+  margin-top: 220px;
+  border-left: 5px solid #F8E71C;
+  border-bottom: 5px solid #F8E71C;
+  padding-left: 30px;
+}
+
+section.mainBlog .boxShadow .blogInfo .post h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #2C2C2C;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+section.mainBlog .boxShadow .blogInfo .post p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+section.mainBlog .boxShadow .blogInfo .post p .author {
+  margin-bottom: 25px;
+}
+
+section.comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #F0EFED;
+}
+
+section.comments .reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  padding-right: 220px;
+}
+
+section.comments .reviews .jeremy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.comments .reviews .jeremy .jeremyPicture {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 8px;
+}
+
+section.comments .reviews .jeremy .jeremyComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: left;
+}
+
+section.comments .reviews .jeremy .jeremyComment h5 {
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+  color: #2C2C2C;
+}
+
+section.comments .reviews .jeremy .jeremyComment p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px;
+}
+
+section.comments .reviews .julia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+}
+
+section.comments .reviews .julia .juliaPicture {
+  width: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 8px;
+}
+
+section.comments .reviews .julia .juliaComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: left;
+}
+
+section.comments .reviews .julia .juliaComment h5 {
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+  color: #2C2C2C;
+}
+
+section.comments .reviews .julia .juliaComment p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px;
+}
+
+section.comments .reviews h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #2C2C2C;
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+section.blogForm {
+  background-color: #F0EFED;
+}
+
+section.blogForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.blogForm form fieldset {
+  border: none;
+  text-align: center;
+  color: #F0EFED;
+}
+
+section.blogForm form input {
+  border: none;
+  padding: 15px;
+  width: 43%;
+  border-bottom: 1px solid #0E902D;
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+}
+
+section.blogForm form label {
+  display: none;
+}
+
+input[type="blogText"] {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+  background-color: #F0EFED;
+}
+
+input[placeholder="Email"] {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+  background-color: #F0EFED;
+}
+
+textarea[class="blogTextarea"] {
+  resize: none;
+  border: 1px solid #0E902D;
+  height: 250px;
+  padding: 20px;
+  margin: 30px 50px 40px 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+  background-color: #F0EFED;
+}
+
+button[type="submit"] {
+  background-color: #0E902D;
+  padding: 15px 30px;
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  width: calc(100% - 100px);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #0E902D;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+
+button:hover {
+  color: #F8E71C;
+}
+
+input[type="email"] {
+  margin-left: 18px;
+}
+
+.blogContactForm {
+  position: relative;
+  width: 60%;
+  right: 0;
+  margin-left: 370px;
+}
+
+@media (max-width: 1024px) {
+  section.form .box {
+    left: 410px;
+  }
+  .window {
+    width: 400px;
+  }
+  aside.sideBar .aboutPlanted {
+    margin: 0px;
+    height: 80%;
+  }
+  .headerTitle h2 {
+    margin-left: 20px;
+  }
+  section.contactInfo .icons {
+    margin-left: 20px;
+  }
+  section.contactInfo .information {
+    margin-left: 20px;
+  }
+  .headerBlogTitle h1 {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  i.fa-bars {
+    visibility: visible;
+    font-size: 25px;
+  }
+  ul.navBar {
+    visibility: hidden;
+  }
+  .blogContactForm {
+    margin-left: 280px;
+  }
+  .juliaPicture,
+  .jeremyPicture {
+    visibility: hidden;
+  }
+  .sideBar .window {
+    width: 40%;
+  }
+}
+
+@media (max-width: 460px) {
+  .blogContactForm {
+    margin-left: 90px;
+  }
+  aside.sideBar .aboutPlanted {
+    width: 150px;
+    margin-top: 150px;
+  }
+  section.comments .reviews {
+    padding-right: 20px;
+  }
+  section.mainBlog .blogInfo {
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+  }
+  section.mainBlog .plantImage {
+    top: 200px;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,391 @@
+@import 'mixin';
+
+// INDEX HEADER 
+
+header.homePage {
+    background-image: url(../Planted/planted-final-assets/home-image-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        nav.topBar {
+            display: flex;
+
+            .logo {
+                @include title(#FFF, 30px)
+            }
+
+            ul.navBar {
+                display: flex;
+                list-style: none;
+                align-items: center;
+                justify-content: space-between;
+                @include nav;
+
+                li {
+                    padding: 0 25px;
+
+                    a {
+                        text-decoration: none;
+                        color: #FFF;
+                    }
+
+                    a:hover {
+                        color: #F8E71C;
+                    }
+                }
+            }
+        }
+
+        .headerTitle {
+            text-align: center;
+            height: 100%; 
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            line-height: 120px;
+            z-index: 1;
+
+            .title {
+                @include title(#FFF, 150px);
+            }
+            
+            .yellow {
+                @include title(#F8E71C, 150px);
+                padding-left: 110px;
+            }  
+        }
+ 
+    }
+    .boxImage {
+        position: absolute;
+        right: 0;
+        top: 200px;
+        width: 43%; 
+    
+    }
+}
+
+i.fa-bars {
+    visibility: hidden;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+    font-size: 15px;
+}
+
+
+
+// INDEX BODY
+
+section.first {
+    background-color: $white;
+
+    .planted {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            @include planted;
+            padding-top: 200px;
+            margin: 0px;
+        }
+
+        p {
+            @include bodyText;
+            text-align: center;
+            margin: 0px;
+            padding: 20px 0px;
+            width: 100%; 
+        }
+
+        a {
+            @include button;
+            margin-bottom: 200px;
+            padding: 5px 20px;
+        }
+
+        a:hover {
+            background-color: $yellow;
+        }
+    }
+}
+
+section.flowers {
+    position: relative;
+    height: 110vh;
+    background-color: #fff; 
+
+    .leftFlowers {
+        position: absolute;
+        left: 0;
+        width: 42%;
+        top: -20px; 
+
+        .yellowBoxOne {
+            box-shadow: $yellow 15px 15px;
+        }
+    }
+
+    .upcoming {
+    position: absolute;
+    right: 0;
+    width: 40%; 
+
+        .upcomingWorkshops {
+        width: 70%; 
+
+            h3 {
+            @include headingText;
+            margin-bottom: 0px; 
+            margin-top: 60px;
+            }
+
+            p {
+            @include bodyText; 
+            }
+
+            .buttonTwo {
+            @include button;
+            padding: 12px 30px;
+            }
+
+            .buttonTwo:hover {
+                background-color: $yellow;
+            }
+        }
+    }
+    
+    .rightFlowers {
+        position: absolute;
+        right: 0;
+        top: 400px;
+        width: 42%; 
+
+        .yellowBoxTwo {
+            box-shadow: $yellow -15px 15px;
+        }
+    }
+
+    .discover {
+        position: absolute;
+        left: 70px;
+        width: 60%;
+        top: 120px; 
+
+        .unique {
+            width: 60%; 
+            display: flex; 
+            flex-direction: column;
+            align-items: flex-end;
+            position: relative;
+            top: 300px;
+            margin: 0;
+
+            h3 {
+                @include headingText;
+                text-align: right;
+                margin-bottom: 0px;
+            }
+
+            p {
+                @include bodyText; 
+                text-align: right;
+            }
+
+            .buttonThree {
+                @include button;
+                padding: 5px 30px;
+            }
+
+            .buttonThree:hover {
+                background-color: $yellow;
+            }
+        }
+    }
+}
+
+section.group {
+    background: $white; 
+    padding: 100px 0px;
+
+    .flexContainer {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .iconText {
+            width: 45%; 
+
+            h3 {
+                @include headingText; 
+                margin: 0px 0px 10px 0px;
+
+                .fas {
+                    background-color: $yellow;
+                    padding: 10px;
+                    border-radius: 50%; 
+                    margin-right: 10px; 
+                    font-size: 20px;
+                }
+            }
+
+            p {
+                @include bodyText;
+                padding-left: 55px;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0;
+                margin-bottom: calc (100px - 40px);
+            }
+        }
+    }
+}
+
+section.vases {
+    background-color: $white;
+}
+
+section.founder {
+    background-color: $white; 
+    padding: 100px 0px;
+
+    .flexContainerTwo {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-around;
+
+        .plantedImage {
+            width: 20%;
+
+            .lady {
+                box-shadow: $yellow 15px 15px;
+            }
+        }
+
+        .planted {
+            width: 60%; 
+
+            h3 {
+                @include headingText;
+                font-size: 32px;
+                margin-bottom: 0px;
+                margin-top: 15px;
+            }
+
+            p {
+                @include bodyText;
+            }
+
+            .buttonFour {
+                @include button;
+                padding: 12px 20px;
+            }
+
+            .buttonFour:hover {
+                background-color: $yellow;
+            }
+        }
+    }
+}
+
+section.gallery {
+    display: flex; 
+    flex-direction: row;
+
+    ul {
+        display: flex; 
+        list-style: none;
+
+        li {
+            padding: 80px 20px;
+        }
+    }
+
+    ul:nth-of-type(1) {
+        padding-left: 0; 
+    }
+}
+
+footer {
+    background-color: $black;
+
+    p {
+        @include bodyText;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    a {
+        color: $yellow;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .topBar {
+        margin-left: 50px;
+    }
+
+    div.planted {
+        margin: 0px 50px;
+    }
+
+    section.flowers {
+        height: 660px;
+    }
+
+
+}
+
+@media (max-width: 940px) {
+    i.fa-bars {
+        visibility: visible;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+
+    ul.navBar {
+        visibility: hidden;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .boxImage {
+        visibility: hidden;
+    }
+
+    h3 {
+        margin-top: 0px;
+    }
+
+    section.flowers {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+   h1 {
+       font-size: 40px;
+   }
+
+//    Keep trying to put in media queries for certain elements but does not seem to work! :( For example, this h1 doesn't showcase this font-size and now i have a horizontal scroll. 
+}

@@ -1,0 +1,107 @@
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+$white: #F0EFED;
+$green: #0E902D;
+$yellow: #F8E71C;
+$black: #2C2C2C;
+$forest: #074115;
+
+@mixin title($color, $font) {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: $font;
+    color: $color;
+}
+
+@mixin nav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px; 
+    text-transform: uppercase;
+}
+
+@mixin planted {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 56.3px;
+    letter-spacing: 1.3px; 
+    text-align: center;
+    color: $black;
+}
+
+@mixin bodyText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@mixin button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px; 
+    text-align: center; 
+    text-decoration: none;
+    color: #FFF;
+    background-color: $green;
+    // padding: 5px 20px;
+}
+
+
+@mixin headingText {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 1px; 
+    color: $black;
+}
+
+@mixin headingContact {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 92px; 
+    color: $yellow;
+}
+
+@mixin contactHeader {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px; 
+    letter-spacing: 1px;
+}
+
+@mixin contactBody {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 10px; 
+    font-weight: 400;
+}
+
+@mixin contactForm {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #000;
+}
+
+@mixin blogHeading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px; 
+    color: $black;
+}
+
+@mixin commentHeading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px; 
+    color: $black;
+}
